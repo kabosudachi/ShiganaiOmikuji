@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D591C4DF1A7DC5A000A68F21 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D591C4DE1A7DC5A000A68F21 /* SecondViewController.m */; };
+		D591C4EC1A7DECC300A68F21 /* 吉さん.png in Resources */ = {isa = PBXBuildFile; fileRef = D591C4E81A7DECC300A68F21 /* 吉さん.png */; };
+		D591C4ED1A7DECC300A68F21 /* 凶さん.png in Resources */ = {isa = PBXBuildFile; fileRef = D591C4E91A7DECC300A68F21 /* 凶さん.png */; };
+		D591C4EE1A7DECC300A68F21 /* 大吉さん.png in Resources */ = {isa = PBXBuildFile; fileRef = D591C4EA1A7DECC300A68F21 /* 大吉さん.png */; };
+		D591C4EF1A7DECC300A68F21 /* 大凶さん.png in Resources */ = {isa = PBXBuildFile; fileRef = D591C4EB1A7DECC300A68F21 /* 大凶さん.png */; };
+		D591C4F11A7DF4C000A68F21 /* ボタン2.png in Resources */ = {isa = PBXBuildFile; fileRef = D591C4F01A7DF4C000A68F21 /* ボタン2.png */; };
+		D591C4F31A7DF64C00A68F21 /* 吉-1.png in Resources */ = {isa = PBXBuildFile; fileRef = D591C4F21A7DF64C00A68F21 /* 吉-1.png */; };
+		D5AC664F1A79200300203B72 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AC664E1A79200300203B72 /* main.m */; };
+		D5AC66521A79200300203B72 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AC66511A79200300203B72 /* AppDelegate.m */; };
+		D5AC66551A79200300203B72 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AC66541A79200300203B72 /* ViewController.m */; };
+		D5AC66581A79200300203B72 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D5AC66561A79200300203B72 /* Main.storyboard */; };
+		D5AC665A1A79200300203B72 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D5AC66591A79200300203B72 /* Images.xcassets */; };
+		D5AC665D1A79200300203B72 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D5AC665B1A79200300203B72 /* LaunchScreen.xib */; };
+		D5AC66691A79200300203B72 /* OmikujiTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D5AC66681A79200300203B72 /* OmikujiTests.m */; };
+		D5AC66731A79222100203B72 /* おみくじ背景.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AC66721A79222100203B72 /* おみくじ背景.png */; };
+		D5AC66751A792D1100203B72 /* omikuz.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AC66741A792D1100203B72 /* omikuz.png */; };
+		D5AC66791A79331700203B72 /* ひくボタン.png in Resources */ = {isa = PBXBuildFile; fileRef = D5AC66781A79331700203B72 /* ひくボタン.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D5AC66631A79200300203B72 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D5AC66411A79200300203B72 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D5AC66481A79200300203B72;
+			remoteInfo = Omikuji;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D591C4DD1A7DC5A000A68F21 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		D591C4DE1A7DC5A000A68F21 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		D591C4E81A7DECC300A68F21 /* 吉さん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吉さん.png"; sourceTree = "<group>"; };
+		D591C4E91A7DECC300A68F21 /* 凶さん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "凶さん.png"; sourceTree = "<group>"; };
+		D591C4EA1A7DECC300A68F21 /* 大吉さん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大吉さん.png"; sourceTree = "<group>"; };
+		D591C4EB1A7DECC300A68F21 /* 大凶さん.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "大凶さん.png"; sourceTree = "<group>"; };
+		D591C4F01A7DF4C000A68F21 /* ボタン2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ボタン2.png"; sourceTree = "<group>"; };
+		D591C4F21A7DF64C00A68F21 /* 吉-1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "吉-1.png"; sourceTree = "<group>"; };
+		D5AC66491A79200300203B72 /* Omikuji.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Omikuji.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AC664D1A79200300203B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5AC664E1A79200300203B72 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		D5AC66501A79200300203B72 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		D5AC66511A79200300203B72 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		D5AC66531A79200300203B72 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		D5AC66541A79200300203B72 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D5AC66571A79200300203B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		D5AC66591A79200300203B72 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D5AC665C1A79200300203B72 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D5AC66621A79200300203B72 /* OmikujiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = OmikujiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5AC66671A79200300203B72 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D5AC66681A79200300203B72 /* OmikujiTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OmikujiTests.m; sourceTree = "<group>"; };
+		D5AC66721A79222100203B72 /* おみくじ背景.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "おみくじ背景.png"; sourceTree = "<group>"; };
+		D5AC66741A792D1100203B72 /* omikuz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = omikuz.png; sourceTree = "<group>"; };
+		D5AC66781A79331700203B72 /* ひくボタン.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "ひくボタン.png"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D5AC66461A79200300203B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5AC665F1A79200300203B72 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D5AC66401A79200300203B72 = {
+			isa = PBXGroup;
+			children = (
+				D5AC664B1A79200300203B72 /* Omikuji */,
+				D5AC66651A79200300203B72 /* OmikujiTests */,
+				D5AC664A1A79200300203B72 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D5AC664A1A79200300203B72 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D5AC66491A79200300203B72 /* Omikuji.app */,
+				D5AC66621A79200300203B72 /* OmikujiTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D5AC664B1A79200300203B72 /* Omikuji */ = {
+			isa = PBXGroup;
+			children = (
+				D591C4F21A7DF64C00A68F21 /* 吉-1.png */,
+				D591C4F01A7DF4C000A68F21 /* ボタン2.png */,
+				D591C4E81A7DECC300A68F21 /* 吉さん.png */,
+				D591C4E91A7DECC300A68F21 /* 凶さん.png */,
+				D591C4EA1A7DECC300A68F21 /* 大吉さん.png */,
+				D591C4EB1A7DECC300A68F21 /* 大凶さん.png */,
+				D5AC66781A79331700203B72 /* ひくボタン.png */,
+				D5AC66741A792D1100203B72 /* omikuz.png */,
+				D5AC66721A79222100203B72 /* おみくじ背景.png */,
+				D5AC66501A79200300203B72 /* AppDelegate.h */,
+				D5AC66511A79200300203B72 /* AppDelegate.m */,
+				D5AC66531A79200300203B72 /* ViewController.h */,
+				D5AC66541A79200300203B72 /* ViewController.m */,
+				D591C4DD1A7DC5A000A68F21 /* SecondViewController.h */,
+				D591C4DE1A7DC5A000A68F21 /* SecondViewController.m */,
+				D5AC66561A79200300203B72 /* Main.storyboard */,
+				D5AC66591A79200300203B72 /* Images.xcassets */,
+				D5AC665B1A79200300203B72 /* LaunchScreen.xib */,
+				D5AC664C1A79200300203B72 /* Supporting Files */,
+			);
+			path = Omikuji;
+			sourceTree = "<group>";
+		};
+		D5AC664C1A79200300203B72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5AC664D1A79200300203B72 /* Info.plist */,
+				D5AC664E1A79200300203B72 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D5AC66651A79200300203B72 /* OmikujiTests */ = {
+			isa = PBXGroup;
+			children = (
+				D5AC66681A79200300203B72 /* OmikujiTests.m */,
+				D5AC66661A79200300203B72 /* Supporting Files */,
+			);
+			path = OmikujiTests;
+			sourceTree = "<group>";
+		};
+		D5AC66661A79200300203B72 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D5AC66671A79200300203B72 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D5AC66481A79200300203B72 /* Omikuji */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5AC666C1A79200300203B72 /* Build configuration list for PBXNativeTarget "Omikuji" */;
+			buildPhases = (
+				D5AC66451A79200300203B72 /* Sources */,
+				D5AC66461A79200300203B72 /* Frameworks */,
+				D5AC66471A79200300203B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Omikuji;
+			productName = Omikuji;
+			productReference = D5AC66491A79200300203B72 /* Omikuji.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D5AC66611A79200300203B72 /* OmikujiTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D5AC666F1A79200300203B72 /* Build configuration list for PBXNativeTarget "OmikujiTests" */;
+			buildPhases = (
+				D5AC665E1A79200300203B72 /* Sources */,
+				D5AC665F1A79200300203B72 /* Frameworks */,
+				D5AC66601A79200300203B72 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D5AC66641A79200300203B72 /* PBXTargetDependency */,
+			);
+			name = OmikujiTests;
+			productName = OmikujiTests;
+			productReference = D5AC66621A79200300203B72 /* OmikujiTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D5AC66411A79200300203B72 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "西村真奈";
+				TargetAttributes = {
+					D5AC66481A79200300203B72 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D5AC66611A79200300203B72 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D5AC66481A79200300203B72;
+					};
+				};
+			};
+			buildConfigurationList = D5AC66441A79200300203B72 /* Build configuration list for PBXProject "Omikuji" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D5AC66401A79200300203B72;
+			productRefGroup = D5AC664A1A79200300203B72 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D5AC66481A79200300203B72 /* Omikuji */,
+				D5AC66611A79200300203B72 /* OmikujiTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D5AC66471A79200300203B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D591C4ED1A7DECC300A68F21 /* 凶さん.png in Resources */,
+				D5AC66581A79200300203B72 /* Main.storyboard in Resources */,
+				D591C4EE1A7DECC300A68F21 /* 大吉さん.png in Resources */,
+				D5AC66731A79222100203B72 /* おみくじ背景.png in Resources */,
+				D5AC665D1A79200300203B72 /* LaunchScreen.xib in Resources */,
+				D591C4EC1A7DECC300A68F21 /* 吉さん.png in Resources */,
+				D591C4F11A7DF4C000A68F21 /* ボタン2.png in Resources */,
+				D591C4EF1A7DECC300A68F21 /* 大凶さん.png in Resources */,
+				D5AC66791A79331700203B72 /* ひくボタン.png in Resources */,
+				D591C4F31A7DF64C00A68F21 /* 吉-1.png in Resources */,
+				D5AC665A1A79200300203B72 /* Images.xcassets in Resources */,
+				D5AC66751A792D1100203B72 /* omikuz.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5AC66601A79200300203B72 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D5AC66451A79200300203B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D591C4DF1A7DC5A000A68F21 /* SecondViewController.m in Sources */,
+				D5AC66551A79200300203B72 /* ViewController.m in Sources */,
+				D5AC66521A79200300203B72 /* AppDelegate.m in Sources */,
+				D5AC664F1A79200300203B72 /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D5AC665E1A79200300203B72 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D5AC66691A79200300203B72 /* OmikujiTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D5AC66641A79200300203B72 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D5AC66481A79200300203B72 /* Omikuji */;
+			targetProxy = D5AC66631A79200300203B72 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D5AC66561A79200300203B72 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5AC66571A79200300203B72 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		D5AC665B1A79200300203B72 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D5AC665C1A79200300203B72 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D5AC666A1A79200300203B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		D5AC666B1A79200300203B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D5AC666D1A79200300203B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Omikuji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D5AC666E1A79200300203B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Omikuji/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D5AC66701A79200300203B72 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OmikujiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omikuji.app/Omikuji";
+			};
+			name = Debug;
+		};
+		D5AC66711A79200300203B72 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = OmikujiTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Omikuji.app/Omikuji";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D5AC66441A79200300203B72 /* Build configuration list for PBXProject "Omikuji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5AC666A1A79200300203B72 /* Debug */,
+				D5AC666B1A79200300203B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5AC666C1A79200300203B72 /* Build configuration list for PBXNativeTarget "Omikuji" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5AC666D1A79200300203B72 /* Debug */,
+				D5AC666E1A79200300203B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D5AC666F1A79200300203B72 /* Build configuration list for PBXNativeTarget "OmikujiTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D5AC66701A79200300203B72 /* Debug */,
+				D5AC66711A79200300203B72 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D5AC66411A79200300203B72 /* Project object */;
+}
